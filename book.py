@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 
 # Initialize Cohere client with your API key
-co = cohere.Client('cCaBb430kMioiub17v2gOo34tK21SvPi7sFYIQML')  # Replace with your actual key
+co = cohere.Client('Your API Key')  # Replace with your actual key
 
 # Function to get book recommendations
 def get_book_recommendations(preferences):
